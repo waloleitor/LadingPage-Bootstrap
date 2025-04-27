@@ -28,6 +28,23 @@ Pequeño proyecto para dominar Tailwind CSS creando una landing page moderna y c
 | Texto         | `text-stone-800`    |
 | Modo oscuro   | `dark:bg-stone-900` |
 
+
+## 🛠️ Configuración técnica
+
+### Tailwind CSS
+Este proyecto utiliza **Tailwind CSS v3.4.1** (última versión estable) mediante CDN.  
+Para implementarlo en tu HTML, añade este código en el `<head>`:
+
+```html
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+
+#📦 Alternativa local: Instala via npm con npm install tailwindcss
+
 ## 🚀 Cómo visualizarlo
 1. Clona el repositorio
 2. Abre `index.html` en tu navegador
